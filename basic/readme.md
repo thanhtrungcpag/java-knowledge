@@ -1,3 +1,4 @@
+
 Difference between abstract and interface in java.
 
 Concept:
@@ -10,3 +11,4 @@ Differece:
 3. Implementation: Abstract class can provide implementation of interface. Interface can't provide the implementation of abstract class.
 4. Inheritance: interface can extend another java interface only, an abstract class can extend another java class and implement multiple java interfaces.
 5. Accessiblity: members of a java interface are public by default. a java abstract class have class members like private, protected, etc.
+
