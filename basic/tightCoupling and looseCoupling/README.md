@@ -13,3 +13,4 @@ Example:
 Example:
     We have GunInter interface to inheriant for shortGun and thomsomGun, this help us change weapon easily, without affecting the soldier2 class.
 (https://www.tutorialspoint.com/what-are-the-differences-between-tight-coupling-and-loose-coupling-in-java)
+
