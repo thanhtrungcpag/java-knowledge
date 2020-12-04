@@ -11,6 +11,10 @@ public class Main {
         Car2 car3 = new Car2(fac2);
         car2.Reaction();
         car3.Reaction();
-
+        // to use xml
+        // we use Spring libery
+        //  ClassPathXmlApplicationContext  
+        //  Car2 car2 = context.getBean("ID:Girl",Girl.class)
+        // 
     }
 }
