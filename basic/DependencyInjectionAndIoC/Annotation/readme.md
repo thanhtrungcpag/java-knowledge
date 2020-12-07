@@ -34,3 +34,10 @@ It allow Spring to resolve and inject colloborating bean into our bean.
 
 It will automatically scan the components in the current package and sub-package. If we have mutilple compoment base on one interface, we can use @qualifier annotation to resolve the conflict.
 
+Autowired Injection types:
+
+    Constructor Injection: we will that an instance of object is injected by Spring as  an argument to Object constructor.
+    Setter Injection: Autorwired annotation on the setter method, in the setter method is called with instance of Object when Object is created.
+    Properties Injection: This eliminates the need for getter and setter.
+
+

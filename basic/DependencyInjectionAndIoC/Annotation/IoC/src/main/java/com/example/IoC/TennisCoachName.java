@@ -8,10 +8,30 @@ public class TennisCoachName implements Coach {
 
     private FortuneService fortuneService;
 
+
+    public TennisCoachName(){
+        System.out.println("Created TennisCoachName");
+    }
+
+    // Setter Injection
+    // @Autowired
+    // public void setFortuneService(FortuneService fortuneService) {
+    //     System.out.println("Setter Injection");
+    //     this.fortuneService = fortuneService;
+    // }
+    
+    // method Injection
     @Autowired
-    public TennisCoachName(FortuneService fortuneService){
+    public void doFortuneService(FortuneService fortuneService) {
+        System.out.println("Method: do Injection");
         this.fortuneService = fortuneService;
     }
+
+    // Constructor Injection
+    // @Autowired
+    // public TennisCoachName(FortuneService fortuneService){
+    //     this.fortuneService = fortuneService;
+    // }
 
     @Override
     public String getDailyWork() {
