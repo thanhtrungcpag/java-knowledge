@@ -17,6 +17,7 @@ public class IoCApplication {
 		Coach theCoach2 = context.getBean("tennisCoachName", Coach.class);
 		System.out.println(theCoach.getDailyWork());
 		System.out.println(theCoach2.getDailyWork());
+		System.out.println(theCoach2.getFortuneService());
 		// close the context
 		context.close();
 	}

@@ -25,3 +25,12 @@ Development process
 1. Enable component scanning in spring config file
 2. Add the @component annotation to your Java Classes.
 3. Retrieve bean from Spring container. 
+
+## Depencency Injection
+
+Spring @Autowired annotation is used for automatic dependency injection.
+
+It allow Spring to resolve and inject colloborating bean into our bean. 
+
+It will automatically scan the components in the current package and sub-package. If we have mutilple compoment base on one interface, we can use @qualifier annotation to resolve the conflict.
+

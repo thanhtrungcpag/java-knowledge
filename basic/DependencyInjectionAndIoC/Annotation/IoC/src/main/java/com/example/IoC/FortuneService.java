@@ -1,7 +1,5 @@
 package com.example.IoC;
 
-public interface Coach {
-
-    public String getDailyWork();
+public interface FortuneService {
     public String getFortuneService();
 }

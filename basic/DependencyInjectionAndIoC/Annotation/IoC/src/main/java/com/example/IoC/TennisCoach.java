@@ -10,5 +10,11 @@ public class TennisCoach implements Coach {
         
         return "Practice Action GetDAilyWork Tennish Coach";
     }
+
+    @Override
+    public String getFortuneService() {
+        // TODO Auto-generated method stub
+        return null;
+    }
     
 }
