@@ -40,4 +40,21 @@ Autowired Injection types:
     Setter Injection: Autorwired annotation on the setter method, in the setter method is called with instance of Object when Object is created.
     Properties Injection: This eliminates the need for getter and setter.
 
+# Configuration without using the XML file
+(https://howtodoinjava.com/spring-core/spring-configuration-annotation/)
+
+## Concept
+
+Configuration Annotation is used instead of xml file, 
+
+Since Spring 2, we were writing our bean configuration to xml file. But Spring 3 gave the freedom to move bean definitions out of xml file. we can give bean difinitions in java files itself. Configuration annotation indicated that a class declares one or more @Bean (Bean Annotation) method and may be processed by Spring containter to generate bean definitions and service request for those beans at runtime.
+
+we use @componentScan to scan all component that we declares.
+## Difference Configuration and components
+
+@Configuration Indicates that a class declares one or more @Bean methods and may be processed by the Spring container to generate bean definitions and service requests for those beans at runtime
+
+@Component Indicates that an annotated class is a "component". Such classes are considered as candidates for auto-detection when using annotation-based configuration and classpath scanning.
+
+@Configuration is meta-annotated with @Component, therefore @Configuration classes are candidates for component scanning
 
