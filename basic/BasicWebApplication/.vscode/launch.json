@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringMvcDemoApplication<SpringMVCDemo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.SpringMVCDemo.SpringMvcDemoApplication",
+            "projectName": "SpringMVCDemo",
+            "args": ""
+        }
+    ]
+}
