@@ -16,6 +16,27 @@ View
 Controller
     Controller are responsible for receiving the request from user and calling the back-end service.
 
+### Spring MVC
+
+Front Controller
+    Front controller known as DispatcherServlet: Part of the Spring Framwork, Already developed by Spring DEV Team
+Controller
+    Contains your business logic:
+        Handle the request.
+        Store / Retrieve data (db, web service).
+        Place data in model
+    Send to appropriate view template
+Model
+    It is the application's dynamic data structure.
+    Store / Retrieve data via backend systems
+        database, web service,...
+    You can take that data and place it into the model
+View Template
+    Spring MVC is flexible: supports many view template.
+    JSP (Java Server Pages)
+    JSTL (JSP Standard Tag Library)
+ 
+
 ## Advantage of Spring MVC Framework
 
 Clear separation of responsibilities because it implements MVC design pattern
@@ -63,3 +84,12 @@ Simplified exception handling.
 15. View executes and returns HTML output to the DispatcherServlet.
 
 16. DispatcherServlet will sends the output to the Browser.
+
+## Components of a Spring MVC Application
+
+A set of web pages to layout UI components
+
+A collection of spring beans (controller, services, etc ...)
+
+Spring configuration (XML, Annotation or java)
+
