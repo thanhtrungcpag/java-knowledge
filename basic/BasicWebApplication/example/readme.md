@@ -3,8 +3,11 @@
 ## Spring MVC Configuration Process Part 1
 
 Add Configuration to file: WEB-INF/web.xml
+
     1. Configurate Spring MVC Dispatcher Servlet
+    
     2. Set up URL mapping to Spring MVC Dispatcher Servlet
+    
     Example:
 
 ```xml
@@ -35,11 +38,17 @@ Add Configuration to file: WEB-INF/web.xml
 ```
 
 Add Configuration to file: /WEB-INF/spring/appServlet/servlet-context.xml
+
     3. We'll add support for a component scanning
+```xml
      <context:component-scan base-package="com" />
+```
     4. Add support for conversion, formatting and validation
+    
     5. configure Spring MVC view resolver
+    
     Example:
+    
 ```xml
     <beans:bean id="viewResolver"
         class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -48,6 +57,9 @@ Add Configuration to file: /WEB-INF/spring/appServlet/servlet-context.xml
     </beans:bean>
 ```
         /WEB-INF/vistas/helo.jsp
+        
         prefix: /WEB-INF/vistas/
+        
         suffix: .jsp
+        
         viewName: Helo
