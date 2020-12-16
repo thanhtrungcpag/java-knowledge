@@ -93,3 +93,9 @@ A collection of spring beans (controller, services, etc ...)
 
 Spring configuration (XML, Annotation or java)
 
+
+## What is a Controller in Spring MVC?
+
+Just like MVC design pattern, Controller is the class that takes care of all the client requests and send them to the configured resources to handle it. In Spring MVC, org.springframework.web.servlet.DispatcherServlet is the front controller class that initializes the context based on the spring beans configurations.
+
+A Controller class is responsible to handle a different kind of client requests based on the request mappings. We can create a controller class by using @Controller annotation. Usually, it’s used with @RequestMapping annotation to define handler methods for specific URI mapping.
