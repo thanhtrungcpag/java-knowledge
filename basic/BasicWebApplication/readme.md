@@ -19,21 +19,36 @@ Controller
 ### Spring MVC
 
 Front Controller
+
     Front controller known as DispatcherServlet: Part of the Spring Framwork, Already developed by Spring DEV Team
+
 Controller
+
     Contains your business logic:
+
         Handle the request.
+        
         Store / Retrieve data (db, web service).
+        
         Place data in model
+    
     Send to appropriate view template
+
 Model
+    
     It is the application's dynamic data structure.
+    
     Store / Retrieve data via backend systems
         database, web service,...
+    
     You can take that data and place it into the model
+
 View Template
+    
     Spring MVC is flexible: supports many view template.
+    
     JSP (Java Server Pages)
+    
     JSTL (JSP Standard Tag Library)
  
 
